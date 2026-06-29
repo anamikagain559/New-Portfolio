@@ -30,31 +30,31 @@ export default function Experience() {
       <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '4rem', marginBottom: '8rem' }}>
         <div>
           <div className="exp-item cv-item">
-            <p>Designing complex web and mobile interfaces for B2C, B2B, SaaS, and CRM.</p>
+            <p>Developing full-stack web applications using React, Node.js, and Express.</p>
           </div>
           <div className="exp-item cv-item">
-            <p>Creating wireframes, prototypes, and high-fidelity mockups.</p>
+            <p>Designing elegant and responsive frontend interfaces using Tailwind CSS and Material UI.</p>
           </div>
           <div className="exp-item cv-item">
-            <p>Collaborating with developers and testing implementation.</p>
+            <p>Architecting scalable and secure backend services and APIs.</p>
           </div>
         </div>
         <div>
           <div className="exp-item cv-item">
-            <p>Adaptive design.</p>
+            <p>Database modeling and management with MongoDB and MySQL.</p>
           </div>
           <div className="exp-item cv-item">
-            <p>Creating and maintaining design systems.</p>
+            <p>Implementing seamless authentication using Firebase and JWT.</p>
           </div>
           <div className="exp-item cv-item">
-            <p>Redesigning or improving designs.</p>
+            <p>Collaborating in agile environments and ensuring high-quality code delivery.</p>
           </div>
         </div>
       </div>
 
       <div className="about-grid" style={{ marginTop: '8rem' }}>
         <div className="arch-wrapper">
-          <img className="arch-img" src="https://images.unsplash.com/photo-1517849845537-4d257902454a?q=80&w=800&auto=format&fit=crop" alt="Dog placeholder" />
+          <img className="arch-img" src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=800&auto=format&fit=crop" alt="Workspace placeholder" />
         </div>
         <div>
           <h2 className="serif-heading" style={{ fontSize: 'clamp(3rem, 6vw, 5rem)', marginBottom: '2rem' }}>
@@ -62,14 +62,13 @@ export default function Experience() {
             Some more
           </h2>
           <p className="about-desc">
-            My strong personal qualities include being easygoing, cheerful, and goal-oriented. 
-            My true passions are yoga and dancing. I'm open to new knowledge and opportunities, 
-            love reading educational books, and constantly strive for self-improvement.
+            My strong personal qualities include being dedicated, adaptable, and highly motivated. 
+            I am deeply passionate about continuous learning and exploring new technologies. 
+            Whether it's diving into a new JavaScript framework or optimizing database queries, I constantly strive to expand my skillset.
           </p>
           <p className="about-desc">
-            Recently, I became the happy owner of a small redhead terrier girl with a gentle 
-            and sociable character. I adore walking together and spending time with her. 
-            Watching my dog reminds me that <span style={{ fontStyle: 'italic', fontFamily: 'var(--font-serif)' }}>life is about the moment — it's here and now, and each new day is an opportunity to write a unique and unforgettable story.</span>
+            Beyond coding, I enjoy engaging with the tech community and contributing to meaningful projects that have a positive impact. 
+            I believe that <span style={{ fontStyle: 'italic', fontFamily: 'var(--font-serif)' }}>great software is built at the intersection of creativity, logic, and empathy — always keeping the user at the heart of the experience.</span>
           </p>
         </div>
       </div>

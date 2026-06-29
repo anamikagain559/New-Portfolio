@@ -9,54 +9,44 @@ export default function CV() {
         <div>
           <h3 className="cv-section-title serif-heading">Work experience</h3>
           <div className="cv-item">
-            <div className="cv-role">UX/UI designer</div>
-            <div className="cv-company">Axon.dev | Remote/Office | Oct 2021 - Nov 2023</div>
+            <div className="cv-role">Junior Fullstack Developer</div>
+            <div className="cv-company">Zaimah Technologies Limited | Dec 2022 - Apr 2023</div>
           </div>
           <div className="cv-item">
-            <div className="cv-role">UX/UI designer</div>
-            <div className="cv-company">Mediasparx | Remote | May 2020 - Oct 2021</div>
-          </div>
-          <div className="cv-item">
-            <div className="cv-role">UX/UI designer - trainee</div>
-            <div className="cv-company">Camtouch | Kyiv | Feb 2020 - Apr 2020</div>
-          </div>
-          <div className="cv-item">
-            <div className="cv-role">FrontEnd developer</div>
-            <div className="cv-company">Kyiv | Office | Apr 2018 - Jan 2020</div>
+            <div className="cv-role">Freelance Developer</div>
+            <div className="cv-company">Self-employed | 2018 - Present</div>
           </div>
         </div>
 
         <div>
           <h3 className="cv-section-title serif-heading">Education</h3>
           <div className="cv-item">
-            <div className="cv-role">Alice K Web and mobile design course</div>
-            <div className="cv-company">UX/UI design | Jun 2023 - current</div>
+            <div className="cv-role">Bachelor of Computer Science and Engineering</div>
+            <div className="cv-company">Bangabandhu Sheikh Mujibur Rahman Science and Technology University | Jan 2016 - Dec 2020</div>
           </div>
           <div className="cv-item">
-            <div className="cv-role">Mate Academy</div>
-            <div className="cv-company">UX/UI design | Nov 2019 - Mar 2020</div>
+            <div className="cv-role">H. S. C</div>
+            <div className="cv-company">Khulna Collegiate Girls' School & KCC Women's College | Jan 2012 - Dec 2014</div>
           </div>
           <div className="cv-item">
-            <div className="cv-role">Igor Sikorsky Kyiv Polytechnic Institute</div>
-            <div className="cv-company">2014 - 2018, Bachelor</div>
+            <div className="cv-role">S. S. C</div>
+            <div className="cv-company">G G K H Kanai Lal High School | Jan 2007 - Dec 2012</div>
           </div>
         </div>
 
         <div>
           <h3 className="cv-section-title serif-heading">Languages</h3>
           <div style={{ marginBottom: '2rem' }}>
-            <p>Ukrainian</p>
-            <p>Russian</p>
-            <p>English (Upper intermediate)</p>
+            <p>Bengali (Native)</p>
+            <p>English (Fluent)</p>
           </div>
 
           <h3 className="cv-section-title serif-heading">Contacts</h3>
           <div>
-            <p>ligeka103@gmail.com</p>
-            <p>+380994524603</p>
+            <p>anamikagain559@gmail.com</p>
             <div className="social-links" style={{ marginTop: '1rem' }}>
-              <a href="#">Be</a>
-              <a href="#">In</a>
+              <a href="https://github.com/anamikagain559" target="_blank" rel="noreferrer">GitHub</a>
+              <a href="https://www.linkedin.com/in/anamika-anu/" target="_blank" rel="noreferrer">LinkedIn</a>
             </div>
           </div>
         </div>
@@ -70,39 +60,41 @@ export default function CV() {
           <h3 className="serif-heading" style={{ fontSize: '1.5rem', marginBottom: '1.5rem', borderBottom: '1px solid #333', paddingBottom: '1rem' }}>Industry Knowledge</h3>
           <div style={{ display: 'flex', gap: '4rem' }}>
             <ul style={{ color: 'var(--text-muted)', lineHeight: '2' }}>
-              <li>Prototyping</li>
-              <li>Design system</li>
-              <li>Atomic design methodology</li>
-              <li>Responsive design</li>
-              <li>Accessibility design</li>
-              <li>Stakeholder interview</li>
+              <li>Frontend Architecture</li>
+              <li>Backend Architecture</li>
+              <li>Database Design</li>
+              <li>REST API Design</li>
+              <li>Authentication</li>
+              <li>Responsive Design</li>
             </ul>
             <ul style={{ color: 'var(--text-muted)', lineHeight: '2' }}>
-              <li>User Flow</li>
-              <li>User Interview</li>
-              <li>Wireframing</li>
-              <li>Usability Testing</li>
-              <li>Product Design</li>
-              <li>Mobile Design</li>
+              <li>State Management</li>
+              <li>Agile Methodologies</li>
+              <li>Version Control</li>
+              <li>UI/UX Implementation</li>
+              <li>Web Performance</li>
+              <li>Problem Solving</li>
             </ul>
           </div>
         </div>
         <div>
-          <h3 className="serif-heading" style={{ fontSize: '1.5rem', marginBottom: '1.5rem', borderBottom: '1px solid #333', paddingBottom: '1rem' }}>Instruments</h3>
+          <h3 className="serif-heading" style={{ fontSize: '1.5rem', marginBottom: '1.5rem', borderBottom: '1px solid #333', paddingBottom: '1rem' }}>Technologies</h3>
           <div style={{ display: 'flex', gap: '4rem' }}>
             <ul style={{ color: 'var(--text-muted)', lineHeight: '2' }}>
-              <li>Figma</li>
-              <li>Adobe Photoshop</li>
-              <li>Adobe XD</li>
-              <li>Adobe Illustrator</li>
-              <li>Maze</li>
-              <li>Miro</li>
+              <li>React.js</li>
+              <li>Next.js</li>
+              <li>Node.js</li>
+              <li>Express.js</li>
+              <li>Laravel</li>
+              <li>Tailwind CSS</li>
             </ul>
             <ul style={{ color: 'var(--text-muted)', lineHeight: '2' }}>
-              <li>Google Analytics</li>
-              <li>Jira</li>
-              <li>Webflow</li>
-              <li>HTML, CSS, JS</li>
+              <li>MongoDB</li>
+              <li>MySQL</li>
+              <li>Firebase</li>
+              <li>TypeScript</li>
+              <li>Git / GitHub</li>
+              <li>Redux</li>
             </ul>
           </div>
         </div>

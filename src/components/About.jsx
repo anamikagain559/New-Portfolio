@@ -34,31 +34,24 @@ export default function About() {
       <div className="about-grid">
         <div ref={textRef}>
           <h2 className="about-title serif-heading">
-            Hello, <br /> my name is Lisa,
+            Hello, <br /> my name is Anamika,
           </h2>
           <p className="about-desc">
-            For 5 years, I've been in this profession, crafting designs for over 40 projects
-            catering to medium and large businesses. I enjoy blending my tech curiosity
-            with a passion for art and design. Leveraging my creativity and skills, I
-            specialize in crafting digital product designs that not only look stunning but
-            prioritize user-centricity.
+            Crafting high-performance digital experiences with modern web technologies. Specialized in building scalable applications with elegant architectures. I enjoy blending my tech curiosity with a passion for robust software engineering.
           </p>
           <div className="tools-list">
-            <span className="tool-item">Figma</span>
-            <span className="tool-item">Photoshop</span>
-            <span className="tool-item">Illustrator</span>
-            <span className="tool-item">and others.</span>
+            <span className="tool-item">React.js</span>
+            <span className="tool-item">Node.js</span>
+            <span className="tool-item">MongoDB</span>
+            <span className="tool-item">Tailwind CSS</span>
           </div>
           <p className="about-desc">
-            My passion for design didn't happen overnight. For over 1.5 years, I worked as a
-            FrontEnd developer after graduating from university with a degree in computer
-            technology. Gradually, I realized that my calling lies in crafting intuitive and appealing
-            designs that prioritize user needs.
+            My passion for programming didn't happen overnight. I have completed my Bachelor's degree in Computer Science and Engineering at Bangabandhu Sheikh Mujibur Rahman Science and Technology University. Gradually, I realized that my calling lies in crafting intuitive and scalable applications that solve real-world problems.
           </p>
         </div>
         <div className="arch-wrapper" ref={imgRef}>
           <div className="accent-flower-outline" style={{ top: '-40px', right: '-40px', width: '120px', height: '120px' }}></div>
-          <img className="arch-img" src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=800&auto=format&fit=crop" alt="Lisa placeholder" />
+          <img className="arch-img" src="https://i.ibb.co/1b4b32G/DSC-0095-copyd.jpg" alt="Anamika Gain" />
         </div>
       </div>
     </section>
